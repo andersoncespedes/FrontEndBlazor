@@ -1,0 +1,56 @@
+﻿@page "/weather"
+@inject HttpClient Http
+@using System.Reflection
+@using Radzen;
+@using Radzen.Blazor;
+@inject DialogService dialogService
+<PageTitle>Flights</PageTitle>
+
+<h1>Flights</h1>
+
+<p>Este Componente muestra los diferentes vuelos disponibles</p>
+@if (forecasts == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <RadzenLink Path="FlightSave" >
+        <RadzenButton ButtonStyle="ButtonStyle.Success">
+            xxxxx
+        </RadzenButton>
+    </RadzenLink>
+    <RadzenDataGrid @ref="grid" Data="@forecasts" TItem="Flights" AllowPaging="true" PageSize="10" AllowSorting="true"
+        AllowFiltering="true">
+        <Columns>
+            <RadzenDataGridColumn TItem="Flights" Property="destination" Title="destination" />
+            <RadzenDataGridColumn TItem="Flights" Property="origin" Title="origin" />
+            <RadzenDataGridColumn TItem="Flights" Property="price" Title="price" />
+        </Columns>
+    </RadzenDataGrid>
+}
+
+@code {
+    private Flights[]? forecasts;
+    private Type type;
+    private PropertyInfo[] properties;
+    private RadzenDataGrid<Flights> grid;
+    protected override async Task OnInitializedAsync()
+    {
+        forecasts = await Http.GetFromJsonAsync<Flights[]>("http://localhost:3002/Flights");
+
+        type = forecasts.First().GetType();
+
+        properties = type.GetProperties();
+    }
+
+    public class Flights
+    {
+        public string destination { get; set; }
+
+        public double price { get; set; }
+
+        public string origin { get; set; }
+
+    }
+}

@@ -1,0 +1,66 @@
+@page "/FlightSave"
+@using Radzen.Blazor
+@using Radzen
+@using System.Net.Http.Json;
+@using System.Text.Json
+@inject HttpClient Http
+@using System.Text
+@using System.Net.Http.Headers
+<PageTitle>Save Form</PageTitle>
+
+<RadzenTemplateForm TItem="Flight" Data=@model Submit=@OnSubmit>
+    <p>
+        <RadzenLabel Component="Destination" Text="Destination" />
+        <RadzenTextBox Name="Destination" @bind-Value=@model.Destination />
+        <RadzenRequiredValidator Component="Destination" Text="Destination is required!" />
+    </p>
+    <p>
+        <RadzenLabel Component="Origin" Text="Origin" />
+        <RadzenTextBox Name="Origin" @bind-Value=@model.Origin />
+        <RadzenRequiredValidator Component="Origin" Text="Origin is required!" />
+    </p>
+    <p>
+        <RadzenLabel Component="Price" Text="Price" />
+        <RadzenNumeric Name="Price" @bind-Value=@model.Price Min="0" Max="100" Step="1" />
+    </p>
+    <RadzenButton ButtonType="ButtonType.Submit" Text="Save" />
+</RadzenTemplateForm>
+
+@code {
+    public class Flight
+    {
+        public string Destination { get; set; }
+        public string Origin { get; set; }
+        public double Price { get; set; }
+        public int IdTransportFK { get; set; } = 200;
+    }
+
+    Flight model = new Flight();
+
+    async Task OnSubmit(Flight flight)
+    {
+        var options = new JsonSerializerOptions
+            {
+                PropertyNamingPolicy = null // O null si prefieres PascalCase
+            };
+
+        var jsonData = JsonSerializer.Serialize(flight, options);
+        var content = new StringContent(jsonData, Encoding.UTF8);
+        Console.WriteLine(jsonData);
+        var response = await Http.PostAsync("http://localhost:3002/Flights", content);
+        
+        response.EnsureSuccessStatusCode();
+
+        if (response.IsSuccessStatusCode)
+        {
+            var responseContent = await response.Content.ReadAsStringAsync();
+            var result = JsonSerializer.Deserialize<Flight>(responseContent, options);
+            Console.WriteLine(result);
+        }
+        else
+        {
+            // Manejar el error de la solicitud
+            Console.WriteLine($"Error: {response.StatusCode}");
+        }
+    }
+}
