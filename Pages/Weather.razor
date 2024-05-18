@@ -4,6 +4,7 @@
 @using Radzen;
 @using Radzen.Blazor;
 @inject DialogService dialogService
+@using System.Text;
 <PageTitle>Flights</PageTitle>
 
 <h1>Flights</h1>
@@ -15,42 +16,72 @@
 }
 else
 {
-    <RadzenLink Path="FlightSave" >
+    <RadzenLink Path="FlightSave">
         <RadzenButton ButtonStyle="ButtonStyle.Success">
-            xxxxx
+            Add
         </RadzenButton>
     </RadzenLink>
     <RadzenDataGrid @ref="grid" Data="@forecasts" TItem="Flights" AllowPaging="true" PageSize="10" AllowSorting="true"
         AllowFiltering="true">
         <Columns>
             <RadzenDataGridColumn TItem="Flights" Property="destination" Title="destination" />
-            <RadzenDataGridColumn TItem="Flights" Property="origin" Title="origin" />
-            <RadzenDataGridColumn TItem="Flights" Property="price" Title="price" />
+            <RadzenDataGridColumn TItem="Flights" Property="origin" Title="Origin" />
+            <RadzenDataGridColumn TItem="Flights" Property="price" Title="Price" />
+            <RadzenDataGridColumn TItem="Flights" Title="Opciones">
+                <Template Context="flight">
+                    <RadzenButton ButtonStyle="ButtonStyle.Danger" Click="@(() =>  Delete(flight))">
+                        Eliminar
+                    </RadzenButton>
+                    <RadzenButton ButtonStyle="ButtonStyle.Warning">
+                        Update
+                    </RadzenButton>
+                </Template>
+            </RadzenDataGridColumn>
         </Columns>
     </RadzenDataGrid>
 }
 
 @code {
-    private Flights[]? forecasts;
+    private List<Flights> forecasts;
     private Type type;
     private PropertyInfo[] properties;
     private RadzenDataGrid<Flights> grid;
     protected override async Task OnInitializedAsync()
     {
-        forecasts = await Http.GetFromJsonAsync<Flights[]>("http://localhost:3002/Flights");
+        forecasts = await Http.GetFromJsonAsync<List<Flights>>("http://localhost:3002/Flights");
 
         type = forecasts.First().GetType();
 
         properties = type.GetProperties();
     }
-
-    public class Flights
+    private async Task Delete(Flights flight)
     {
-        public string destination { get; set; }
+        try
+        {
+            var request = new HttpRequestMessage(HttpMethod.Delete, $"http://localhost:3002/Flights/{flight.id}");
+    
+            var response = await Http.SendAsync(request);
+            response.EnsureSuccessStatusCode();
 
-        public double price { get; set; }
+            // Eliminar el vuelo de la lista forecasts
+            forecasts.Remove(flight);
 
-        public string origin { get; set; }
-
+            // Opcional: Actualizar la vista del grid
+            await grid.Reload();
+        }
+        catch (HttpRequestException ex)
+        {
+            // Manejar la excepción según sea necesario
+            Console.WriteLine($"Request error: {ex.Message}");
+        }
     }
+
+public class Flights
+{
+public int id { get; set; }
+public string destination { get; set; }
+public double price { get; set; }
+public string origin { get; set; }
+
+}
 }

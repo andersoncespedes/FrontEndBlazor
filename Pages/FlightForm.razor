@@ -6,6 +6,7 @@
 @inject HttpClient Http
 @using System.Text
 @using System.Net.Http.Headers
+@inject NotificationService notificationService
 <PageTitle>Save Form</PageTitle>
 
 <RadzenTemplateForm TItem="Flight" Data=@model Submit=@OnSubmit>
@@ -25,6 +26,13 @@
     </p>
     <RadzenButton ButtonType="ButtonType.Submit" Text="Save" />
 </RadzenTemplateForm>
+<RadzenCard style="overflow: auto; position:absolute">
+@foreach(var e in events.OrderByDescending(e => e.Key))
+{
+    @e.Value
+    <br>
+}    
+</RadzenCard>
 
 @code {
     public class Flight
@@ -36,7 +44,7 @@
     }
 
     Flight model = new Flight();
-
+    Dictionary<DateTime, string> events = new();
     async Task OnSubmit(Flight flight)
     {
         var options = new JsonSerializerOptions
@@ -55,6 +63,15 @@
         {
             var responseContent = await response.Content.ReadAsStringAsync();
             var result = JsonSerializer.Deserialize<Flight>(responseContent, options);
+            NotificationMessage message = new NotificationMessage() 
+            {
+                Severity = NotificationSeverity.Success,
+                Summary = "Vuelo Agregado",
+                Detail = "Subido"
+            };
+            notificationService.Notify(message);
+            events.Add(DateTime.Now, message.Severity + "Notification");
+            await InvokeAsync(() => {StateHasChanged();});
             Console.WriteLine(result);
         }
         else

@@ -624,6 +624,7 @@ C:\Users\ander\OneDrive\Documentos\Proyectos C#\FrontEndBlazor\obj\Debug\net8.0\
 C:\Users\ander\OneDrive\Documentos\Proyectos C#\FrontEndBlazor\obj\Debug\net8.0\FrontEndBlazor.AssemblyInfo.cs
 C:\Users\ander\OneDrive\Documentos\Proyectos C#\FrontEndBlazor\obj\Debug\net8.0\FrontEndBlazor.csproj.CoreCompileInputs.cache
 C:\Users\ander\OneDrive\Documentos\Proyectos C#\FrontEndBlazor\obj\Debug\net8.0\FrontEndBlazor.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\ander\OneDrive\Documentos\Proyectos C#\FrontEndBlazor\obj\Debug\net8.0\FrontEndBlazor.sourcelink.json
 C:\Users\ander\OneDrive\Documentos\Proyectos C#\FrontEndBlazor\obj\Debug\net8.0\webcil\Microsoft.AspNetCore.Authorization.wasm
 C:\Users\ander\OneDrive\Documentos\Proyectos C#\FrontEndBlazor\obj\Debug\net8.0\webcil\Microsoft.AspNetCore.Components.wasm
 C:\Users\ander\OneDrive\Documentos\Proyectos C#\FrontEndBlazor\obj\Debug\net8.0\webcil\Microsoft.AspNetCore.Components.Forms.wasm
