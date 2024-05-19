@@ -32,9 +32,12 @@ else
                     <RadzenButton ButtonStyle="ButtonStyle.Danger" Click="@(() =>  Delete(flight))">
                         Eliminar
                     </RadzenButton>
-                    <RadzenButton ButtonStyle="ButtonStyle.Warning">
-                        Update
-                    </RadzenButton>
+                    <RadzenLink Path=@GetUpdatePath(flight.id)>
+                        <RadzenButton ButtonStyle="ButtonStyle.Warning">
+                            Update 
+                        </RadzenButton>
+
+                    </RadzenLink>
                 </Template>
             </RadzenDataGridColumn>
         </Columns>
@@ -42,10 +45,17 @@ else
 }
 
 @code {
+
     private List<Flights> forecasts;
     private Type type;
+    string Alerta;
     private PropertyInfo[] properties;
     private RadzenDataGrid<Flights> grid;
+    private RadzenAlert Alert;
+    private string GetUpdatePath(int flightId)
+    {
+        return $"FlightSave?Update={flightId}";
+    }
     protected override async Task OnInitializedAsync()
     {
         forecasts = await Http.GetFromJsonAsync<List<Flights>>("http://localhost:3002/Flights");
@@ -53,21 +63,22 @@ else
         type = forecasts.First().GetType();
 
         properties = type.GetProperties();
+        
     }
     private async Task Delete(Flights flight)
     {
         try
         {
             var request = new HttpRequestMessage(HttpMethod.Delete, $"http://localhost:3002/Flights/{flight.id}");
-    
+
             var response = await Http.SendAsync(request);
             response.EnsureSuccessStatusCode();
-
             // Eliminar el vuelo de la lista forecasts
             forecasts.Remove(flight);
 
             // Opcional: Actualizar la vista del grid
             await grid.Reload();
+            Alerta = "SE HA Eliminado Con Exito";
         }
         catch (HttpRequestException ex)
         {
@@ -76,12 +87,12 @@ else
         }
     }
 
-public class Flights
-{
-public int id { get; set; }
-public string destination { get; set; }
-public double price { get; set; }
-public string origin { get; set; }
+    public class Flights
+    {
+        public int id { get; set; }
+        public string destination { get; set; }
+        public double price { get; set; }
+        public string origin { get; set; }
 
-}
+    }
 }

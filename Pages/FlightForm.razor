@@ -7,26 +7,33 @@
 @using System.Text
 @using System.Net.Http.Headers
 @inject NotificationService notificationService
+@using FrontEndBlazor.Model
 <PageTitle>Save Form</PageTitle>
 
 <RadzenTemplateForm TItem="Flight" Data=@model Submit=@OnSubmit>
     <p>
         <RadzenLabel Component="Destination" Text="Destination" />
-        <RadzenTextBox Name="Destination" @bind-Value=@model.Destination />
-        <RadzenRequiredValidator Component="Destination" Text="Destination is required!" />
+        <RadzenTextBox Name="Destination" @bind-Value=@model.Destination @ref="Destination" Placeholder="Destiantion" />
+        <RadzenRequiredValidator Component="Destination" Text="Destination is required!"  />
     </p>
     <p>
         <RadzenLabel Component="Origin" Text="Origin" />
-        <RadzenTextBox Name="Origin" @bind-Value=@model.Origin />
+        <RadzenTextBox Name="Origin" @bind-Value=@model.Origin @ref="Origin" Placeholder="Origin"/>
         <RadzenRequiredValidator Component="Origin" Text="Origin is required!" />
     </p>
     <p>
         <RadzenLabel Component="Price" Text="Price" />
-        <RadzenNumeric Name="Price" @bind-Value=@model.Price Min="0" Max="100" Step="1" />
+        <RadzenNumeric Name="Price" @bind-Value=@model.Price Min="0" Max="100" Step="1" @ref="Price" Placeholder="Price"/>
+    </p>
+    <p>
+        <RadzenLabel Component="" Text="Journey" />
+        <RadzenDropDown Data="@journey" TextProperty="Origin" ValueProperty="Id"  @bind-Value="@model.IdTransportFK" Placeholder="Select an item" Style="width:200px;" />
+
     </p>
     <RadzenButton ButtonType="ButtonType.Submit" Text="Save" />
 </RadzenTemplateForm>
 <RadzenCard style="overflow: auto; position:absolute">
+    
 @foreach(var e in events.OrderByDescending(e => e.Key))
 {
     @e.Value
@@ -35,16 +42,34 @@
 </RadzenCard>
 
 @code {
-    public class Flight
+    [SupplyParameterFromQuery(Name = "Update")]
+    public string Update { get; set; }
+ 
+    private RadzenTextBox Destination;
+    private RadzenTextBox Origin;
+    private RadzenNumeric<double> Price;
+    private List<Transports> transports;
+    private string selectedItem;
+
+    private void OnChange(string value)
     {
-        public string Destination { get; set; }
-        public string Origin { get; set; }
-        public double Price { get; set; }
-        public int IdTransportFK { get; set; } = 200;
+        selectedItem = value;
+        // Puedes agregar lógica adicional aquí
     }
 
     Flight model = new Flight();
     Dictionary<DateTime, string> events = new();
+    protected  override async Task OnInitializedAsync()
+    {
+        transports = await Http.GetFromJsonAsync<List<Transports>>($"http://localhost:3002/Journey");
+        if(Update != null){
+            Flight flight = await Http.GetFromJsonAsync<Flight>($"http://localhost:3002/Flights/{Update}");
+            model.Destination = flight.Destination;
+            model.Origin = flight.Origin;
+            model.Price = flight.Price;
+            Console.WriteLine(flight.Origin);
+        }
+    }
     async Task OnSubmit(Flight flight)
     {
         var options = new JsonSerializerOptions
@@ -55,8 +80,14 @@
         var jsonData = JsonSerializer.Serialize(flight, options);
         var content = new StringContent(jsonData, Encoding.UTF8);
         Console.WriteLine(jsonData);
-        var response = await Http.PostAsync("http://localhost:3002/Flights", content);
-        
+        HttpResponseMessage response;
+        if(Update == null){
+            response = await Http.PostAsync("http://localhost:3002/Flights", content);
+        }
+        else{
+            response = await Http.PutAsync($"http://localhost:3002/Flights/{Update}", content);
+
+        }
         response.EnsureSuccessStatusCode();
 
         if (response.IsSuccessStatusCode)
