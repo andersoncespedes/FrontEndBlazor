@@ -1,7 +1,34 @@
 ﻿@page "/"
-
+@using Radzen.Blazor
+@using Radzen
+@inject DialogService dialogService
+@inject HttpClient Http
 <PageTitle>Home</PageTitle>
 
 <h1>Hello, world!</h1>
 
 Welcome to your new app.
+<div class="row">
+    <div class="col-md-6">
+        sadsad
+    </div>
+     <div class="col-md-6">
+        sadsa
+    </div>
+</div>
+
+@code {
+    private DbCount dbCount;
+    protected  override async Task OnInitializedAsync()
+    {
+        dbCount = await Http.GetFromJsonAsync<DbCount>("http://localhost:3002/Journey/count");
+            Console.WriteLine(dbCount.TransportCount);
+    }
+    internal class DbCount
+    {
+        public int TransportCount { get; set; }
+        public int JourneyCount { get; set; }
+        public int FlightCount { get; set; }
+    }
+    private RadzenDataGrid<DbCount> grid;
+}

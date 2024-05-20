@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "zEYHKlF/i8HkfoI/YGmLOl2Ks6qZKGMdIyOWXrO5HJh4+ZIW6NwI+egYCAo9dJYEVvN4jJ5aii86R1SAOUHLwg==",
+  "dgSpecHash": "X1xeCjpm7tEl4U5fPmXkb8BJiCGPaagZ0DRESLkOYrGU4Vm/0DSIHEIWa5K1p7g5f0ykPQmzXKBkqx4h34tsow==",
   "success": true,
   "projectFilePath": "C:\\Users\\ander\\OneDrive\\Documentos\\Proyectos C#\\FrontEndBlazor\\FrontEndBlazor.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\ander\\.nuget\\packages\\blazorise\\1.0.0\\blazorise.1.0.0.nupkg.sha512",
+    "C:\\Users\\ander\\.nuget\\packages\\blazorise.bootstrap\\1.0.0\\blazorise.bootstrap.1.0.0.nupkg.sha512",
+    "C:\\Users\\ander\\.nuget\\packages\\blazorise.icons.fontawesome\\1.0.0\\blazorise.icons.fontawesome.1.0.0.nupkg.sha512",
     "C:\\Users\\ander\\.nuget\\packages\\dartsassbuilder\\1.0.0\\dartsassbuilder.1.0.0.nupkg.sha512",
     "C:\\Users\\ander\\.nuget\\packages\\microsoft.aspnetcore.authorization\\8.0.4\\microsoft.aspnetcore.authorization.8.0.4.nupkg.sha512",
     "C:\\Users\\ander\\.nuget\\packages\\microsoft.aspnetcore.components\\8.0.4\\microsoft.aspnetcore.components.8.0.4.nupkg.sha512",
@@ -39,5 +42,28 @@
     "C:\\Users\\ander\\.nuget\\packages\\system.text.json\\8.0.0\\system.text.json.8.0.0.nupkg.sha512",
     "C:\\Users\\ander\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.5\\microsoft.netcore.app.runtime.mono.browser-wasm.8.0.5.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "FrontEndBlazor depends on Blazorise.Bootstrap (>= 1.0.0-rc.5) but Blazorise.Bootstrap 1.0.0-rc.5 was not found. An approximate best match of Blazorise.Bootstrap 1.0.0 was resolved.",
+      "libraryId": "Blazorise.Bootstrap",
+      "targetGraphs": [
+        "net8.0",
+        "net8.0/browser-wasm"
+      ]
+    },
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "FrontEndBlazor depends on Blazorise.Icons.FontAwesome (>= 1.0.0-rc.5) but Blazorise.Icons.FontAwesome 1.0.0-rc.5 was not found. An approximate best match of Blazorise.Icons.FontAwesome 1.0.0 was resolved.",
+      "libraryId": "Blazorise.Icons.FontAwesome",
+      "targetGraphs": [
+        "net8.0",
+        "net8.0/browser-wasm"
+      ]
+    }
+  ]
 }

@@ -21,6 +21,9 @@ else
             Add
         </RadzenButton>
     </RadzenLink>
+    <RadzenAlert Visible=IsVisible AlertStyle="AlertStyle.Danger">
+        @Alerta
+    </RadzenAlert>
     <RadzenDataGrid @ref="grid" Data="@forecasts" TItem="Flights" AllowPaging="true" PageSize="10" AllowSorting="true"
         AllowFiltering="true">
         <Columns>
@@ -52,6 +55,7 @@ else
     private PropertyInfo[] properties;
     private RadzenDataGrid<Flights> grid;
     private RadzenAlert Alert;
+    private bool IsVisible = false;
     private string GetUpdatePath(int flightId)
     {
         return $"FlightSave?Update={flightId}";
@@ -79,6 +83,7 @@ else
             // Opcional: Actualizar la vista del grid
             await grid.Reload();
             Alerta = "SE HA Eliminado Con Exito";
+            IsVisible = true;
         }
         catch (HttpRequestException ex)
         {

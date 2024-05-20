@@ -27,7 +27,7 @@
     </p>
     <p>
         <RadzenLabel Component="" Text="Journey" />
-        <RadzenDropDown Data="@journey" TextProperty="Origin" ValueProperty="Id"  @bind-Value="@model.IdTransportFK" Placeholder="Select an item" Style="width:200px;" />
+        <RadzenDropDown Data="@transports" TextProperty="Mostra" ValueProperty="Id"  @bind-Value="@model.IdTransportFK" Placeholder="Select an item" Style="width:200px;" />
 
     </p>
     <RadzenButton ButtonType="ButtonType.Submit" Text="Save" />
@@ -44,13 +44,11 @@
 @code {
     [SupplyParameterFromQuery(Name = "Update")]
     public string Update { get; set; }
- 
     private RadzenTextBox Destination;
     private RadzenTextBox Origin;
     private RadzenNumeric<double> Price;
     private List<Transports> transports;
     private string selectedItem;
-
     private void OnChange(string value)
     {
         selectedItem = value;
@@ -61,7 +59,7 @@
     Dictionary<DateTime, string> events = new();
     protected  override async Task OnInitializedAsync()
     {
-        transports = await Http.GetFromJsonAsync<List<Transports>>($"http://localhost:3002/Journey");
+        transports = await Http.GetFromJsonAsync<List<Transports>>($"http://localhost:3002/Transports");
         if(Update != null){
             Flight flight = await Http.GetFromJsonAsync<Flight>($"http://localhost:3002/Flights/{Update}");
             model.Destination = flight.Destination;
