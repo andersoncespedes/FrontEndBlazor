@@ -1,9 +1,13 @@
 ﻿@page "/counter"
 @using Radzen.Blazor
+@using Radzen
 @using FrontEndBlazor.Model
 @inject HttpClient Http
 <PageTitle>Counter</PageTitle>
 <h1>Counter</h1>
+<RadzenLink Path="/" text="Epale" >
+    <RadzenButton Text="Add" ButtonStyle="ButtonStyle.Success"/>
+</RadzenLink>
 <RadzenScheduler Data="@journeys" TItem="Journey" StartProperty="DateStart" EndProperty="DateEnd" TextProperty="Destination">
     <Template Context="Journey">
         <strong>@Journey.Destination</strong>
