@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "BdkI0Z0BKAl4W4suY/qH0aTeS3o+RAm8o2z/9nYdPC0=",
+  "Hash": "BsfuAVw67XpAN50ewEcHgAgLENt5Q/3IyHHKEccNZKM=",
   "Source": "FrontEndBlazor",
   "BasePath": "/",
   "Mode": "Root",
@@ -1667,7 +1667,7 @@
       "AssetTraitValue": "native",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\ander\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.5\\runtimes\\browser-wasm\\native\\dotnet.js"
+      "OriginalItemSpec": "C:\\Users\\ander\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.6\\runtimes\\browser-wasm\\native\\dotnet.js"
     },
     {
       "Identity": "C:\\Users\\ander\\OneDrive\\Documentos\\Proyectos C#\\FrontEndBlazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.js.map",
@@ -1686,15 +1686,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\ander\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.5\\runtimes\\browser-wasm\\native\\dotnet.js.map"
+      "OriginalItemSpec": "C:\\Users\\ander\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.6\\runtimes\\browser-wasm\\native\\dotnet.js.map"
     },
     {
-      "Identity": "C:\\Users\\ander\\OneDrive\\Documentos\\Proyectos C#\\FrontEndBlazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.native.8.0.5.lpn1pvy0al.js",
+      "Identity": "C:\\Users\\ander\\OneDrive\\Documentos\\Proyectos C#\\FrontEndBlazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.native.8.0.6.4ov7b2ovkx.js",
       "SourceId": "FrontEndBlazor",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\ander\\OneDrive\\Documentos\\Proyectos C#\\FrontEndBlazor\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
-      "RelativePath": "_framework/dotnet.native.8.0.5.lpn1pvy0al.js",
+      "RelativePath": "_framework/dotnet.native.8.0.6.4ov7b2ovkx.js",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1705,7 +1705,7 @@
       "AssetTraitValue": "native",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\ander\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.5\\runtimes\\browser-wasm\\native\\dotnet.native.js"
+      "OriginalItemSpec": "C:\\Users\\ander\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.6\\runtimes\\browser-wasm\\native\\dotnet.native.js"
     },
     {
       "Identity": "C:\\Users\\ander\\OneDrive\\Documentos\\Proyectos C#\\FrontEndBlazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.native.wasm",
@@ -1724,15 +1724,15 @@
       "AssetTraitValue": "native",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\ander\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.5\\runtimes\\browser-wasm\\native\\dotnet.native.wasm"
+      "OriginalItemSpec": "C:\\Users\\ander\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.6\\runtimes\\browser-wasm\\native\\dotnet.native.wasm"
     },
     {
-      "Identity": "C:\\Users\\ander\\OneDrive\\Documentos\\Proyectos C#\\FrontEndBlazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.runtime.8.0.5.povrepbyuu.js",
+      "Identity": "C:\\Users\\ander\\OneDrive\\Documentos\\Proyectos C#\\FrontEndBlazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.runtime.8.0.6.5n1lurh4kq.js",
       "SourceId": "FrontEndBlazor",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\ander\\OneDrive\\Documentos\\Proyectos C#\\FrontEndBlazor\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
-      "RelativePath": "_framework/dotnet.runtime.8.0.5.povrepbyuu.js",
+      "RelativePath": "_framework/dotnet.runtime.8.0.6.5n1lurh4kq.js",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1743,7 +1743,7 @@
       "AssetTraitValue": "native",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\ander\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.5\\runtimes\\browser-wasm\\native\\dotnet.runtime.js"
+      "OriginalItemSpec": "C:\\Users\\ander\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.6\\runtimes\\browser-wasm\\native\\dotnet.runtime.js"
     },
     {
       "Identity": "C:\\Users\\ander\\OneDrive\\Documentos\\Proyectos C#\\FrontEndBlazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.runtime.js.map",
@@ -1762,7 +1762,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\ander\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.5\\runtimes\\browser-wasm\\native\\dotnet.runtime.js.map"
+      "OriginalItemSpec": "C:\\Users\\ander\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.6\\runtimes\\browser-wasm\\native\\dotnet.runtime.js.map"
     },
     {
       "Identity": "C:\\Users\\ander\\OneDrive\\Documentos\\Proyectos C#\\FrontEndBlazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\FrontEndBlazor.pdb",
@@ -1819,7 +1819,7 @@
       "AssetTraitValue": "native",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\ander\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.5\\runtimes\\browser-wasm\\native\\icudt_CJK.dat"
+      "OriginalItemSpec": "C:\\Users\\ander\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.6\\runtimes\\browser-wasm\\native\\icudt_CJK.dat"
     },
     {
       "Identity": "C:\\Users\\ander\\OneDrive\\Documentos\\Proyectos C#\\FrontEndBlazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_EFIGS.dat",
@@ -1838,7 +1838,7 @@
       "AssetTraitValue": "native",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\ander\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.5\\runtimes\\browser-wasm\\native\\icudt_EFIGS.dat"
+      "OriginalItemSpec": "C:\\Users\\ander\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.6\\runtimes\\browser-wasm\\native\\icudt_EFIGS.dat"
     },
     {
       "Identity": "C:\\Users\\ander\\OneDrive\\Documentos\\Proyectos C#\\FrontEndBlazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_no_CJK.dat",
@@ -1857,7 +1857,7 @@
       "AssetTraitValue": "native",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\ander\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.5\\runtimes\\browser-wasm\\native\\icudt_no_CJK.dat"
+      "OriginalItemSpec": "C:\\Users\\ander\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.6\\runtimes\\browser-wasm\\native\\icudt_no_CJK.dat"
     },
     {
       "Identity": "C:\\Users\\ander\\OneDrive\\Documentos\\Proyectos C#\\FrontEndBlazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Authorization.wasm",
@@ -6173,6 +6173,25 @@
       "OriginalItemSpec": "C:\\Users\\ander\\OneDrive\\Documentos\\Proyectos C#\\FrontEndBlazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Xml.wasm"
     },
     {
+      "Identity": "C:\\Users\\ander\\OneDrive\\Documentos\\Proyectos C#\\FrontEndBlazor\\obj\\Debug\\net8.0\\compressed\\4ov7b2ovkx.gz",
+      "SourceId": "FrontEndBlazor",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\ander\\OneDrive\\Documentos\\Proyectos C#\\FrontEndBlazor\\bin\\Debug\\net8.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/dotnet.native.8.0.6.4ov7b2ovkx.js.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\ander\\OneDrive\\Documentos\\Proyectos C#\\FrontEndBlazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.native.8.0.6.4ov7b2ovkx.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\ander\\OneDrive\\Documentos\\Proyectos C#\\FrontEndBlazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.native.8.0.6.4ov7b2ovkx.js"
+    },
+    {
       "Identity": "C:\\Users\\ander\\OneDrive\\Documentos\\Proyectos C#\\FrontEndBlazor\\obj\\Debug\\net8.0\\compressed\\4tzph5to5a.gz",
       "SourceId": "FrontEndBlazor",
       "SourceType": "Computed",
@@ -6306,6 +6325,25 @@
       "OriginalItemSpec": "C:\\Users\\ander\\OneDrive\\Documentos\\Proyectos C#\\FrontEndBlazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Diagnostics.DiagnosticSource.wasm"
     },
     {
+      "Identity": "C:\\Users\\ander\\OneDrive\\Documentos\\Proyectos C#\\FrontEndBlazor\\obj\\Debug\\net8.0\\compressed\\5n1lurh4kq.gz",
+      "SourceId": "FrontEndBlazor",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\ander\\OneDrive\\Documentos\\Proyectos C#\\FrontEndBlazor\\bin\\Debug\\net8.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/dotnet.runtime.8.0.6.5n1lurh4kq.js.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\ander\\OneDrive\\Documentos\\Proyectos C#\\FrontEndBlazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.runtime.8.0.6.5n1lurh4kq.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\ander\\OneDrive\\Documentos\\Proyectos C#\\FrontEndBlazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.runtime.8.0.6.5n1lurh4kq.js"
+    },
+    {
       "Identity": "C:\\Users\\ander\\OneDrive\\Documentos\\Proyectos C#\\FrontEndBlazor\\obj\\Debug\\net8.0\\compressed\\5ymjkthmhk.gz",
       "SourceId": "FrontEndBlazor",
       "SourceType": "Computed",
@@ -6401,6 +6439,25 @@
       "OriginalItemSpec": "C:\\Users\\ander\\OneDrive\\Documentos\\Proyectos C#\\FrontEndBlazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Runtime.wasm"
     },
     {
+      "Identity": "C:\\Users\\ander\\OneDrive\\Documentos\\Proyectos C#\\FrontEndBlazor\\obj\\Debug\\net8.0\\compressed\\6icywz4k7k.gz",
+      "SourceId": "FrontEndBlazor",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\ander\\OneDrive\\Documentos\\Proyectos C#\\FrontEndBlazor\\bin\\Debug\\net8.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/dotnet.js.map.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\ander\\OneDrive\\Documentos\\Proyectos C#\\FrontEndBlazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.js.map",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\ander\\OneDrive\\Documentos\\Proyectos C#\\FrontEndBlazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.js.map"
+    },
+    {
       "Identity": "C:\\Users\\ander\\OneDrive\\Documentos\\Proyectos C#\\FrontEndBlazor\\obj\\Debug\\net8.0\\compressed\\6idim40okx.gz",
       "SourceId": "FrontEndBlazor",
       "SourceType": "Computed",
@@ -6437,25 +6494,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\ander\\OneDrive\\Documentos\\Proyectos C#\\FrontEndBlazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Reflection.Emit.ILGeneration.wasm"
-    },
-    {
-      "Identity": "C:\\Users\\ander\\OneDrive\\Documentos\\Proyectos C#\\FrontEndBlazor\\obj\\Debug\\net8.0\\compressed\\702lajwnsy.gz",
-      "SourceId": "FrontEndBlazor",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\ander\\OneDrive\\Documentos\\Proyectos C#\\FrontEndBlazor\\bin\\Debug\\net8.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/dotnet.js.map.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\ander\\OneDrive\\Documentos\\Proyectos C#\\FrontEndBlazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.js.map",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\ander\\OneDrive\\Documentos\\Proyectos C#\\FrontEndBlazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.js.map"
     },
     {
       "Identity": "C:\\Users\\ander\\OneDrive\\Documentos\\Proyectos C#\\FrontEndBlazor\\obj\\Debug\\net8.0\\compressed\\7cxc1u6sr0.gz",
@@ -6551,6 +6589,25 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\ander\\OneDrive\\Documentos\\Proyectos C#\\FrontEndBlazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Blazorise.wasm"
+    },
+    {
+      "Identity": "C:\\Users\\ander\\OneDrive\\Documentos\\Proyectos C#\\FrontEndBlazor\\obj\\Debug\\net8.0\\compressed\\89oaj13jzg.gz",
+      "SourceId": "FrontEndBlazor",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\ander\\OneDrive\\Documentos\\Proyectos C#\\FrontEndBlazor\\bin\\Debug\\net8.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/dotnet.runtime.js.map.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\ander\\OneDrive\\Documentos\\Proyectos C#\\FrontEndBlazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.runtime.js.map",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\ander\\OneDrive\\Documentos\\Proyectos C#\\FrontEndBlazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.runtime.js.map"
     },
     {
       "Identity": "C:\\Users\\ander\\OneDrive\\Documentos\\Proyectos C#\\FrontEndBlazor\\obj\\Debug\\net8.0\\compressed\\8cydhmlyvx.gz",
@@ -6686,6 +6743,25 @@
       "OriginalItemSpec": "C:\\Users\\ander\\OneDrive\\Documentos\\Proyectos C#\\FrontEndBlazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Net.WebSockets.wasm"
     },
     {
+      "Identity": "C:\\Users\\ander\\OneDrive\\Documentos\\Proyectos C#\\FrontEndBlazor\\obj\\Debug\\net8.0\\compressed\\ap8wz83m5u.gz",
+      "SourceId": "FrontEndBlazor",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\ander\\OneDrive\\Documentos\\Proyectos C#\\FrontEndBlazor\\bin\\Debug\\net8.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/icudt_EFIGS.dat.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\ander\\OneDrive\\Documentos\\Proyectos C#\\FrontEndBlazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_EFIGS.dat",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\ander\\OneDrive\\Documentos\\Proyectos C#\\FrontEndBlazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_EFIGS.dat"
+    },
+    {
       "Identity": "C:\\Users\\ander\\OneDrive\\Documentos\\Proyectos C#\\FrontEndBlazor\\obj\\Debug\\net8.0\\compressed\\auuoj4yfl1.gz",
       "SourceId": "FrontEndBlazor",
       "SourceType": "Computed",
@@ -6703,25 +6779,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\ander\\OneDrive\\Documentos\\Proyectos C#\\FrontEndBlazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Text.Json.wasm"
-    },
-    {
-      "Identity": "C:\\Users\\ander\\OneDrive\\Documentos\\Proyectos C#\\FrontEndBlazor\\obj\\Debug\\net8.0\\compressed\\b0rsj3ujk0.gz",
-      "SourceId": "FrontEndBlazor",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\ander\\OneDrive\\Documentos\\Proyectos C#\\FrontEndBlazor\\bin\\Debug\\net8.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/icudt_EFIGS.dat.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\ander\\OneDrive\\Documentos\\Proyectos C#\\FrontEndBlazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_EFIGS.dat",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\ander\\OneDrive\\Documentos\\Proyectos C#\\FrontEndBlazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_EFIGS.dat"
     },
     {
       "Identity": "C:\\Users\\ander\\OneDrive\\Documentos\\Proyectos C#\\FrontEndBlazor\\obj\\Debug\\net8.0\\compressed\\b5lemb4c7h.gz",
@@ -6798,25 +6855,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\ander\\OneDrive\\Documentos\\Proyectos C#\\FrontEndBlazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\mscorlib.wasm"
-    },
-    {
-      "Identity": "C:\\Users\\ander\\OneDrive\\Documentos\\Proyectos C#\\FrontEndBlazor\\obj\\Debug\\net8.0\\compressed\\boott5zuup.gz",
-      "SourceId": "FrontEndBlazor",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\ander\\OneDrive\\Documentos\\Proyectos C#\\FrontEndBlazor\\bin\\Debug\\net8.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/dotnet.js.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\ander\\OneDrive\\Documentos\\Proyectos C#\\FrontEndBlazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.js",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\ander\\OneDrive\\Documentos\\Proyectos C#\\FrontEndBlazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.js"
     },
     {
       "Identity": "C:\\Users\\ander\\OneDrive\\Documentos\\Proyectos C#\\FrontEndBlazor\\obj\\Debug\\net8.0\\compressed\\bslldqth0i.gz",
@@ -7161,6 +7199,25 @@
       "OriginalItemSpec": "C:\\Users\\ander\\OneDrive\\Documentos\\Proyectos C#\\FrontEndBlazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Microsoft.VisualBasic.wasm"
     },
     {
+      "Identity": "C:\\Users\\ander\\OneDrive\\Documentos\\Proyectos C#\\FrontEndBlazor\\obj\\Debug\\net8.0\\compressed\\f88221owue.gz",
+      "SourceId": "FrontEndBlazor",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\ander\\OneDrive\\Documentos\\Proyectos C#\\FrontEndBlazor\\bin\\Debug\\net8.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/icudt_no_CJK.dat.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\ander\\OneDrive\\Documentos\\Proyectos C#\\FrontEndBlazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_no_CJK.dat",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\ander\\OneDrive\\Documentos\\Proyectos C#\\FrontEndBlazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_no_CJK.dat"
+    },
+    {
       "Identity": "C:\\Users\\ander\\OneDrive\\Documentos\\Proyectos C#\\FrontEndBlazor\\obj\\Debug\\net8.0\\compressed\\faf75tm12d.gz",
       "SourceId": "FrontEndBlazor",
       "SourceType": "Computed",
@@ -7294,44 +7351,6 @@
       "OriginalItemSpec": "C:\\Users\\ander\\OneDrive\\Documentos\\Proyectos C#\\FrontEndBlazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Console.wasm"
     },
     {
-      "Identity": "C:\\Users\\ander\\OneDrive\\Documentos\\Proyectos C#\\FrontEndBlazor\\obj\\Debug\\net8.0\\compressed\\gd2s0m9vh4.gz",
-      "SourceId": "FrontEndBlazor",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\ander\\OneDrive\\Documentos\\Proyectos C#\\FrontEndBlazor\\bin\\Debug\\net8.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/dotnet.runtime.js.map.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\ander\\OneDrive\\Documentos\\Proyectos C#\\FrontEndBlazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.runtime.js.map",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\ander\\OneDrive\\Documentos\\Proyectos C#\\FrontEndBlazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.runtime.js.map"
-    },
-    {
-      "Identity": "C:\\Users\\ander\\OneDrive\\Documentos\\Proyectos C#\\FrontEndBlazor\\obj\\Debug\\net8.0\\compressed\\gj3yvu3s52.gz",
-      "SourceId": "FrontEndBlazor",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\ander\\OneDrive\\Documentos\\Proyectos C#\\FrontEndBlazor\\bin\\Debug\\net8.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/icudt_CJK.dat.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\ander\\OneDrive\\Documentos\\Proyectos C#\\FrontEndBlazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_CJK.dat",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\ander\\OneDrive\\Documentos\\Proyectos C#\\FrontEndBlazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_CJK.dat"
-    },
-    {
       "Identity": "C:\\Users\\ander\\OneDrive\\Documentos\\Proyectos C#\\FrontEndBlazor\\obj\\Debug\\net8.0\\compressed\\gs0xgdox9w.gz",
       "SourceId": "FrontEndBlazor",
       "SourceType": "Computed",
@@ -7444,6 +7463,25 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\ander\\OneDrive\\Documentos\\Proyectos C#\\FrontEndBlazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Linq.Dynamic.Core.wasm"
+    },
+    {
+      "Identity": "C:\\Users\\ander\\OneDrive\\Documentos\\Proyectos C#\\FrontEndBlazor\\obj\\Debug\\net8.0\\compressed\\he94h1myvy.gz",
+      "SourceId": "FrontEndBlazor",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\ander\\OneDrive\\Documentos\\Proyectos C#\\FrontEndBlazor\\bin\\Debug\\net8.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/dotnet.js.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\ander\\OneDrive\\Documentos\\Proyectos C#\\FrontEndBlazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\ander\\OneDrive\\Documentos\\Proyectos C#\\FrontEndBlazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.js"
     },
     {
       "Identity": "C:\\Users\\ander\\OneDrive\\Documentos\\Proyectos C#\\FrontEndBlazor\\obj\\Debug\\net8.0\\compressed\\hlgb2li7h9.gz",
@@ -7843,25 +7881,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\ander\\OneDrive\\Documentos\\Proyectos C#\\FrontEndBlazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.IO.Compression.ZipFile.wasm"
-    },
-    {
-      "Identity": "C:\\Users\\ander\\OneDrive\\Documentos\\Proyectos C#\\FrontEndBlazor\\obj\\Debug\\net8.0\\compressed\\lpn1pvy0al.gz",
-      "SourceId": "FrontEndBlazor",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\ander\\OneDrive\\Documentos\\Proyectos C#\\FrontEndBlazor\\bin\\Debug\\net8.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/dotnet.native.8.0.5.lpn1pvy0al.js.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\ander\\OneDrive\\Documentos\\Proyectos C#\\FrontEndBlazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.native.8.0.5.lpn1pvy0al.js",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\ander\\OneDrive\\Documentos\\Proyectos C#\\FrontEndBlazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.native.8.0.5.lpn1pvy0al.js"
     },
     {
       "Identity": "C:\\Users\\ander\\OneDrive\\Documentos\\Proyectos C#\\FrontEndBlazor\\obj\\Debug\\net8.0\\compressed\\ls6djasx41.gz",
@@ -8396,25 +8415,6 @@
       "OriginalItemSpec": "C:\\Users\\ander\\OneDrive\\Documentos\\Proyectos C#\\FrontEndBlazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Dynamic.Runtime.wasm"
     },
     {
-      "Identity": "C:\\Users\\ander\\OneDrive\\Documentos\\Proyectos C#\\FrontEndBlazor\\obj\\Debug\\net8.0\\compressed\\povrepbyuu.gz",
-      "SourceId": "FrontEndBlazor",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\ander\\OneDrive\\Documentos\\Proyectos C#\\FrontEndBlazor\\bin\\Debug\\net8.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/dotnet.runtime.8.0.5.povrepbyuu.js.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\ander\\OneDrive\\Documentos\\Proyectos C#\\FrontEndBlazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.runtime.8.0.5.povrepbyuu.js",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\ander\\OneDrive\\Documentos\\Proyectos C#\\FrontEndBlazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.runtime.8.0.5.povrepbyuu.js"
-    },
-    {
       "Identity": "C:\\Users\\ander\\OneDrive\\Documentos\\Proyectos C#\\FrontEndBlazor\\obj\\Debug\\net8.0\\compressed\\pr4mxhr1b4.gz",
       "SourceId": "FrontEndBlazor",
       "SourceType": "Computed",
@@ -8736,6 +8736,25 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\ander\\OneDrive\\Documentos\\Proyectos C#\\FrontEndBlazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Runtime.InteropServices.RuntimeInformation.wasm"
+    },
+    {
+      "Identity": "C:\\Users\\ander\\OneDrive\\Documentos\\Proyectos C#\\FrontEndBlazor\\obj\\Debug\\net8.0\\compressed\\ua5b8akrsv.gz",
+      "SourceId": "FrontEndBlazor",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\ander\\OneDrive\\Documentos\\Proyectos C#\\FrontEndBlazor\\bin\\Debug\\net8.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/dotnet.native.wasm.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\ander\\OneDrive\\Documentos\\Proyectos C#\\FrontEndBlazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.native.wasm",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\ander\\OneDrive\\Documentos\\Proyectos C#\\FrontEndBlazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.native.wasm"
     },
     {
       "Identity": "C:\\Users\\ander\\OneDrive\\Documentos\\Proyectos C#\\FrontEndBlazor\\obj\\Debug\\net8.0\\compressed\\ukf29mao4p.gz",
@@ -9175,6 +9194,25 @@
       "OriginalItemSpec": "C:\\Users\\ander\\OneDrive\\Documentos\\Proyectos C#\\FrontEndBlazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Reflection.Metadata.wasm"
     },
     {
+      "Identity": "C:\\Users\\ander\\OneDrive\\Documentos\\Proyectos C#\\FrontEndBlazor\\obj\\Debug\\net8.0\\compressed\\xvl91fhex4.gz",
+      "SourceId": "FrontEndBlazor",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\ander\\OneDrive\\Documentos\\Proyectos C#\\FrontEndBlazor\\bin\\Debug\\net8.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/icudt_CJK.dat.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\ander\\OneDrive\\Documentos\\Proyectos C#\\FrontEndBlazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_CJK.dat",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\ander\\OneDrive\\Documentos\\Proyectos C#\\FrontEndBlazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_CJK.dat"
+    },
+    {
       "Identity": "C:\\Users\\ander\\OneDrive\\Documentos\\Proyectos C#\\FrontEndBlazor\\obj\\Debug\\net8.0\\compressed\\xz0g4s3wh8.gz",
       "SourceId": "FrontEndBlazor",
       "SourceType": "Computed",
@@ -9289,25 +9327,6 @@
       "OriginalItemSpec": "C:\\Users\\ander\\OneDrive\\Documentos\\Proyectos C#\\FrontEndBlazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Blazorise.Icons.FontAwesome.wasm"
     },
     {
-      "Identity": "C:\\Users\\ander\\OneDrive\\Documentos\\Proyectos C#\\FrontEndBlazor\\obj\\Debug\\net8.0\\compressed\\ysicifetwk.gz",
-      "SourceId": "FrontEndBlazor",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\ander\\OneDrive\\Documentos\\Proyectos C#\\FrontEndBlazor\\bin\\Debug\\net8.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/icudt_no_CJK.dat.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\ander\\OneDrive\\Documentos\\Proyectos C#\\FrontEndBlazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_no_CJK.dat",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\ander\\OneDrive\\Documentos\\Proyectos C#\\FrontEndBlazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_no_CJK.dat"
-    },
-    {
       "Identity": "C:\\Users\\ander\\OneDrive\\Documentos\\Proyectos C#\\FrontEndBlazor\\obj\\Debug\\net8.0\\compressed\\yubbz880en.gz",
       "SourceId": "FrontEndBlazor",
       "SourceType": "Computed",
@@ -9344,25 +9363,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\ander\\OneDrive\\Documentos\\Proyectos C#\\FrontEndBlazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Microsoft.Extensions.DependencyInjection.Abstractions.wasm"
-    },
-    {
-      "Identity": "C:\\Users\\ander\\OneDrive\\Documentos\\Proyectos C#\\FrontEndBlazor\\obj\\Debug\\net8.0\\compressed\\z4mufrofbc.gz",
-      "SourceId": "FrontEndBlazor",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\ander\\OneDrive\\Documentos\\Proyectos C#\\FrontEndBlazor\\bin\\Debug\\net8.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/dotnet.native.wasm.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\ander\\OneDrive\\Documentos\\Proyectos C#\\FrontEndBlazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.native.wasm",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\ander\\OneDrive\\Documentos\\Proyectos C#\\FrontEndBlazor\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.native.wasm"
     },
     {
       "Identity": "C:\\Users\\ander\\OneDrive\\Documentos\\Proyectos C#\\FrontEndBlazor\\obj\\Debug\\net8.0\\compressed\\z51ly3kh37.gz",

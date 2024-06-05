@@ -5,6 +5,7 @@
 @using Radzen.Blazor;
 @inject DialogService dialogService
 @using System.Text;
+@using FrontEndBlazor.Model;
 <PageTitle>Flights</PageTitle>
 
 <h1>Flights</h1>
@@ -24,22 +25,45 @@ else
     <RadzenAlert Visible=IsVisible AlertStyle="AlertStyle.Danger">
         @Alerta
     </RadzenAlert>
-    <RadzenDataGrid @ref="grid" Data="@forecasts" TItem="Flights" AllowPaging="true" PageSize="10" AllowSorting="true"
+    <RadzenDataGrid @ref="grid" Data="@forecasts" TItem="Flight" AllowPaging="true" PageSize="10" AllowSorting="true"
         AllowFiltering="true">
         <Columns>
-            <RadzenDataGridColumn TItem="Flights" Property="destination" Title="destination" />
-            <RadzenDataGridColumn TItem="Flights" Property="origin" Title="Origin" />
-            <RadzenDataGridColumn TItem="Flights" Property="price" Title="Price" />
-            <RadzenDataGridColumn TItem="Flights" Title="Opciones">
+            <RadzenDataGridColumn TItem="Flight" Property="Destination" Title="Destination" />
+            <RadzenDataGridColumn TItem="Flight" Property="Origin" Title="Origin" />
+            <RadzenDataGridColumn TItem="Flight" Property="Price" Title="Price" />
+            <RadzenDataGridColumn TItem="Flight" Property="DateStart" Title="Date Start">
+                <Template Context="Flight">
+                    @if (Flight.DateStart != null)
+                    {
+                        @Flight.DateStart
+                    }
+                    else
+                    {
+                        <span>No date available</span>
+                    }
+                </Template>
+            </RadzenDataGridColumn>
+            <RadzenDataGridColumn TItem="Flight" Property="DateEnd" Title="Date End">
+                <Template Context="Flight">
+                    @if (Flight.DateEnd != null)
+                    {
+                        @Flight.DateEnd
+                    }
+                    else
+                    {
+                        <span>No date available</span>
+                    }
+                </Template>
+            </RadzenDataGridColumn>
+            <RadzenDataGridColumn TItem="Flight" Title="Opciones">
                 <Template Context="flight">
                     <RadzenButton ButtonStyle="ButtonStyle.Danger" Click="@(() =>  Delete(flight))">
                         Eliminar
                     </RadzenButton>
-                    <RadzenLink Path=@GetUpdatePath(flight.id)>
+                    <RadzenLink Path=@GetUpdatePath(flight.Id)>
                         <RadzenButton ButtonStyle="ButtonStyle.Warning">
-                            Update 
+                            Update
                         </RadzenButton>
-
                     </RadzenLink>
                 </Template>
             </RadzenDataGridColumn>
@@ -49,11 +73,11 @@ else
 
 @code {
 
-    private List<Flights> forecasts;
+    private List<Flight> forecasts;
     private Type type;
     string Alerta;
     private PropertyInfo[] properties;
-    private RadzenDataGrid<Flights> grid;
+    private RadzenDataGrid<Flight> grid;
     private RadzenAlert Alert;
     private bool IsVisible = false;
     private string GetUpdatePath(int flightId)
@@ -62,18 +86,18 @@ else
     }
     protected override async Task OnInitializedAsync()
     {
-        forecasts = await Http.GetFromJsonAsync<List<Flights>>("http://localhost:3002/Flights");
+        forecasts = await Http.GetFromJsonAsync<List<Flight>>("http://localhost:3002/Flights");
 
         type = forecasts.First().GetType();
 
         properties = type.GetProperties();
-        
+
     }
-    private async Task Delete(Flights flight)
+    private async Task Delete(Flight flight)
     {
         try
         {
-            var request = new HttpRequestMessage(HttpMethod.Delete, $"http://localhost:3002/Flights/{flight.id}");
+            var request = new HttpRequestMessage(HttpMethod.Delete, $"http://localhost:3002/Flights/{flight.Id}");
 
             var response = await Http.SendAsync(request);
             response.EnsureSuccessStatusCode();
@@ -90,14 +114,5 @@ else
             // Manejar la excepción según sea necesario
             Console.WriteLine($"Request error: {ex.Message}");
         }
-    }
-
-    public class Flights
-    {
-        public int id { get; set; }
-        public string destination { get; set; }
-        public double price { get; set; }
-        public string origin { get; set; }
-
     }
 }

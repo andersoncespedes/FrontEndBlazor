@@ -30,6 +30,14 @@
         <RadzenDropDown Data="@transports" TextProperty="Mostra" ValueProperty="Id"  @bind-Value="@model.IdTransportFK" Placeholder="Select an item" Style="width:200px;" />
 
     </p>
+    <p>
+    <RadzenLabel Text="Date Start" Component="RadzenDatePickerBindValue" Style="margin-right: 8px; vertical-align: middle;" />
+    <RadzenDatePicker @bind-Value=@model.DateStart Name="DateStart" ShowCalendarWeek />
+    </p>
+    <p>
+    <RadzenLabel Text="DateEnd" Component="RadzenDatePickerBindValue" Style="margin-right: 8px; vertical-align: middle;" />
+    <RadzenDatePicker @bind-Value=@model.DateEnd Name="DateEnd" ShowCalendarWeek />
+    </p>
     <RadzenButton ButtonType="ButtonType.Submit" Text="Save" />
 </RadzenTemplateForm>
 <RadzenCard style="overflow: auto; position:absolute">
